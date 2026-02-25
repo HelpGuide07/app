@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+img {
+  max-width: 200px;   /* Logo max size */
+  width: 40%;         /* Responsive scaling */
+  height: auto;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+@media (max-width: 600px) {
+  img {
+    max-width: 150px;
+    width: 60%;
+  }
+  p {
+    font-size: 1rem;
+  }
+}
